@@ -1,0 +1,371 @@
+      body {
+            background: linear-gradient(135deg, #000, #0a1a22, #000);
+            margin: 0;
+           
+            
+            
+            
+        }
+        h1, em, strong, h2 {
+            text-transform: capitalize;
+            color: white;
+        }
+        h2 {
+            margin-left: 130px;
+        } 
+        .h2e {
+            margin: auto ;
+ 
+        }      
+        p {
+            color: white;
+            margin: 10px;
+           }
+         header {
+          width: 600px;
+          position: relative;
+          z-index: 1000;
+          border: solid 1px rgb(84, 169, 218);
+          border-radius: 30px;
+          transition: all 0.3s ease; 
+          box-shadow: 0 0 20px rgb(171, 222, 241);
+          filter: brightness(110%);
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 20px auto;
+          padding: 10px;
+         
+        }
+        .ha {
+            margin: 20px auto;
+        }
+        hr {
+          border: none;
+          height: 1px;
+          background: linear-gradient(to right, transparent, #aaa, transparent);
+          margin: 40px 0;
+        }
+        section {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        #zero {
+           color: white;
+           padding: 20px;
+           position: relative;
+           z-index: 1000;
+           border: solid 1px rgb(84, 169, 218);
+           border-radius: 30px;
+           transition: all 0.3s ease; 
+           box-shadow: 0 0 25px rgb(171, 222, 241);
+           filter: brightness(110%);
+           width: 600px;
+           height: 350px;
+           margin-left: 25px;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+
+        }
+        #uno {
+           align-items: center;
+           justify-content: center;
+           color: white;
+           padding: 20px;
+           position: relative;
+           z-index: 1000-1;
+           border: solid 1px rgb(84, 169, 218);
+           border-radius: 30px;
+           transition: all 0.3s ease; 
+           box-shadow: 0 0 25px rgb(171, 222, 241);
+           filter: brightness(110%);
+           width: 600px;
+           height: 400px;
+           margin-left: 25px;
+        }
+        #dos {
+           align-items: center;
+           justify-content: center;
+           color: white;
+           padding: 20px;
+           position: relative;
+           z-index: 1000-1;
+           border: solid 1px rgb(84, 169, 218);
+           border-radius: 30px;
+           transition: all 0.3s ease; 
+           box-shadow: 0 0 25px rgb(171, 222, 241);
+           filter: brightness(110%);
+           width: 600px;
+           height: auto;
+           margin-left: 25px;
+        }
+
+        button {
+          
+            padding: 20px 20px;
+            margin: 20px;
+            background-color: black;
+            box-shadow: 0 0 25px rgb(171, 222, 241);
+            border-radius: 30px;
+            cursor: pointer;
+            color: white;
+            transition: all  0.3s ease;
+            
+            
+        }
+         button:active {
+            transform: translateY(5px); 
+        }
+        button:hover {
+            background-color: rgb(94, 93, 93);
+            transform: scale(1.09);
+
+        }
+        main {
+            
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            justify-items: center;
+            padding: 40px;
+
+            
+        }
+        
+        a {
+            text-decoration: none;
+            position:relative;
+        }
+        .main-ini {
+
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+            gap: 5px;
+        }
+        #ini1 {
+            width: 400px;
+            height:300px;
+            z-index: 1000;
+            border: solid 1px rgb(84, 169, 218);
+            box-shadow: 0 0 25px rgb(171, 222, 241);
+            border-radius: 40px;
+            overflow: hidden;
+            padding: 20px;
+            margin: 10px;
+            transition: all  0.3s ease;
+         
+            
+
+        }
+        #ini1:hover {
+            box-shadow: 0 0 25px rgb(169, 201, 212);
+            transform: scale(1.09);
+
+        }
+        #inivar {
+            width: 400px;
+            height:180px;
+            z-index: 1000;
+            border: solid 1px rgb(84, 169, 218);
+            box-shadow: 0 0 25px rgb(171, 222, 241);
+            border-radius: 40px;
+            overflow: hidden;
+            padding: 20px;
+            margin: 10px;
+            transition: all  0.3s ease;
+
+          }
+        #inivar:hover {
+            box-shadow: 0 0 25px rgb(169, 201, 212);
+            transform: scale(1.09);
+        }
+        #ininini {
+            z-index: 1000;
+            border: solid 1px rgb(84, 169, 218);
+            box-shadow: 0 0 25px rgb(171, 222, 241);
+            border-radius: 40px;
+            overflow: visible;
+            height: auto;
+            width: 400px;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            transition: all  0.3s ease;
+        }
+        #ininini:hover {
+            box-shadow: 0 0 25px rgb(169, 201, 212);
+            transform: scale(1.09);
+        }
+        #blabla {
+            
+            max-width: 140px;
+            height:auto;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto;
+        }
+        #sponjebob {
+            display: block;
+            margin:auto;
+            max-width: 290px;
+            height: 0 auto;
+        }
+        #dobby {
+            display: block;
+            margin:auto;
+            max-width: 150px;
+            height: 0 auto;
+            
+           
+        }
+        .thinking {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 0 auto;
+        }
+        .reflexion {
+          flex: none;
+          bottom: 10px;
+          right: 10px;
+          align-self: flex-end;
+        }
+        .none {
+            text-transform: none;
+        }
+        #return {
+            position: fixed ;
+            bottom: 20px;
+            right: 5px;
+            
+       
+        }
+        #jue1 {
+            width: 400px;
+            height:600px;
+            z-index: 1000;
+            border: solid 1px rgb(84, 169, 218);
+            box-shadow: 0 0 25px rgb(171, 222, 241);
+            border-radius: 40px;
+            overflow: hidden;
+            padding: 20px;
+            margin: 10px;
+        }
+        .c2 {
+            display: block;
+            width: 400px;
+            height: auto;
+            
+            z-index: 900;
+            position: relative;
+
+            
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+            transition: all 0.3s ease; 
+
+
+        }
+        .c2::after {
+            content: "" ;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            
+            background: linear-gradient(
+                to right,
+                transparent,
+                rgba(219, 217, 217, 0.7),
+                transparent
+            );
+        }
+        .c2:hover {
+            
+           transform: scale(1.05);
+        }
+        .playlist { 
+         width: 60%; 
+         margin: auto; 
+         transition: 1s;
+        } 
+        .playlist:hover {
+         box-shadow: 0 0 25px rgb(247, 246, 246), inset 0 0 15px rgba(122, 122, 122, 0.5);
+         background-color:black;
+         transform: scale(1.04);
+        }
+        .song {
+         margin-top: 50px;
+         border: solid 2px rgb(0, 0, 0);
+         background: linear-gradient(135deg, #000, #0a1a22, #000); 
+         padding: 15px; 
+         margin-bottom: 15px; 
+         border-radius: 10px;
+        }
+        .song p { 
+         margin-bottom: 10px; 
+         font-weight: bold; 
+        } 
+        #main-columna {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .bt {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        html, body {
+            overflow-x: hidden;
+        }
+        
+        .main-ini {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            padding: 20px 15px;
+            overflow: hidden;
+        }
+        
+        #uno, #dos {
+            width: auto 0 !important;
+            margin-left: 0 !important;
+        }
+        
+       
+        
+        
+        .playlist, .song {
+            transition: all 0.035s ease;
+            max-width: 100%;
+        }
+        
+        .playlist:hover, .song:hover {
+            transform: scale(1.01);
+            box-shadow: 0 0 30px rgba(171, 222, 241, 0.6);
+            z-index: 10;
+        }
+        
+        
+        @media (max-width: 600px) {
+            .main-ini {
+                padding: 15px 10px;
+                gap: 20px;
+            }
+            
+            #uno, #dos {
+                padding: 18px 12px;
+            }
+            
+            header.ha {
+                width: 95% !important;
+                padding: 12px;
+            }
+        }        
